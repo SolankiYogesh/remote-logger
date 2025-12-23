@@ -1,6 +1,6 @@
 # Remote Logger
 
-[![npm version](https://img.shields.io/npm/v/@remote-logger?style=for-the-badge)](https://www.npmjs.com/package/@remote-logger)
+[![npm version](https://img.shields.io/npm/v/remote-logger-dev?style=for-the-badge)](https://www.npmjs.com/package/remote-logger-dev)
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg?style=for-the-badge)](https://opensource.org/licenses/ISC)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.9.3-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
 
@@ -20,25 +20,25 @@ A powerful remote logging library for Node.js applications that sends logs to a 
 ## 📦 Installation
 
 ```bash
-npm install @remote-logger
+npm install remote-logger-dev
 ```
 
 Or using yarn:
 
 ```bash
-yarn add @remote-logger
+yarn add remote-logger-dev
 ```
 
 Or using pnpm:
 
 ```bash
-pnpm add @remote-logger
+pnpm add remote-logger-dev
 ```
 
 ## 🚀 Quick Start
 
 ```typescript
-import { RemoteLogger } from "@remote-logger";
+import { RemoteLogger } from "remote-logger-dev";
 
 // Initialize the logger
 const logger = new RemoteLogger({
@@ -235,7 +235,7 @@ This project is licensed under the ISC License - see the [LICENSE](LICENSE) file
 ## 🔗 Links
 
 - **Dashboard**: [https://remote-logger-dashboard.vercel.app/](https://remote-logger-dashboard.vercel.app/)
-- **npm Package**: [https://www.npmjs.com/package/@remote-logger/logger](https://www.npmjs.com/package/@remote-logger/logger)
+- **npm Package**: [https://www.npmjs.com/package/remote-logger-dev/logger](https://www.npmjs.com/package/remote-logger-dev/logger)
 - **GitHub Repository**: [https://github.com/SolankiYogesh/remote-logger](https://github.com/SolankiYogesh/remote-logger)
 
 ## 🆘 Support
