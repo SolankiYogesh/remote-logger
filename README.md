@@ -1,6 +1,6 @@
 # Remote Logger
 
-[![npm version](https://img.shields.io/npm/v/@remote-logger/logger?style=for-the-badge)](https://www.npmjs.com/package/@remote-logger/logger)
+[![npm version](https://img.shields.io/npm/v/@remote-logger?style=for-the-badge)](https://www.npmjs.com/package/@remote-logger)
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg?style=for-the-badge)](https://opensource.org/licenses/ISC)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.9.3-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
 
@@ -20,25 +20,25 @@ A powerful remote logging library for Node.js applications that sends logs to a 
 ## 📦 Installation
 
 ```bash
-npm install @remote-logger/logger
+npm install @remote-logger
 ```
 
 Or using yarn:
 
 ```bash
-yarn add @remote-logger/logger
+yarn add @remote-logger
 ```
 
 Or using pnpm:
 
 ```bash
-pnpm add @remote-logger/logger
+pnpm add @remote-logger
 ```
 
 ## 🚀 Quick Start
 
 ```typescript
-import { RemoteLogger } from "@remote-logger/logger";
+import { RemoteLogger } from "@remote-logger";
 
 // Initialize the logger
 const logger = new RemoteLogger({

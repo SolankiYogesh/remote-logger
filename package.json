@@ -1,5 +1,5 @@
 {
-  "name": "@remote-logger/logger",
+  "name": "@remote-logger",
   "version": "1.0.0",
   "description": "A secure, lightweight, token-based remote logger for web applications.",
   "type": "module",
