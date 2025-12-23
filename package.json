@@ -1,0 +1,38 @@
+{
+  "name": "@remote-logger/logger",
+  "version": "1.0.0",
+  "description": "A secure, lightweight, token-based remote logger for web applications.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "logger",
+    "remote-logging",
+    "monitoring",
+    "observability",
+    "typescript"
+  ],
+  "author": "Yogesh Solanki",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "typescript": "^5.9.3"
+  }
+}
